@@ -1,0 +1,12 @@
+{
+    "name": "home",
+    "version": "1.0.0",
+    "description": "Hello World!",
+    "main": "main.js",
+    "author": "Jane Doe",
+    "license": "MIT",
+    "scripts": {
+      "start": "electron ."
+    }
+  }
+    
