@@ -1,10 +1,10 @@
 const { contextBridge } = require('electron');
-
+/*
 const nearley = require("nearley");
 const compile = require("nearley/lib/compile");
 const generate = require("nearley/lib/generate");
 const nearleyGrammar = require("nearley/lib/nearley-language-bootstrapped");
-
+*/
 
 let rule = ''
 let string = ''
