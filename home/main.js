@@ -60,7 +60,7 @@ const createWindow = () => {
         width: 800,
         height: 600,
         minWidth: 600,
-        minHeight: 400, 
+        minHeight: 400,
         webPreferences: {
             preload: path.join(__dirname, 'preload.js'),
         },
@@ -69,10 +69,11 @@ const createWindow = () => {
     Menu.setApplicationMenu(mainMenu)
 
     win.loadFile('regex/index.html')
+    //win.webContents.openDevTools()
 }
 
-const windowSelector = (selector) =>{
-    BrowserWindow.getAllWindows()[0].loadFile(selector +"/index.html")
+const windowSelector = (selector) => {
+    BrowserWindow.getAllWindows()[0].loadFile(selector + "/index.html")
 }
 
 app.whenReady().then(() => {

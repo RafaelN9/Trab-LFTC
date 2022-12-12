@@ -12,7 +12,6 @@
         "bootstrap": "^5.2.2",
         "electron-reload": "^2.0.0-alpha.1",
         "jquery": "^3.6.1",
-        "nearley": "^2.20.1",
         "popper.js": "^1.16.1"
     },
     "devDependencies": {
